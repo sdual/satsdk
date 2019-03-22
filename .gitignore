@@ -1,9 +1,17 @@
-# python
-*.pyc
-.python-version
+# IntelliJ.
+.idea/
 
-# mac
+# os generated files.
 .DS_Store
 
-# pycharm
-.idea/
+# sbt.
+target/
+*.class
+.history
+
+# data
+*.csv
+
+# ensime
+.ensime
+.ensime_cache/
